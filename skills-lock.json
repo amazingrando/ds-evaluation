@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "skills": {
+    "ds-adoption-plan": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/design-systems/ds-adoption-plan/SKILL.md",
+      "computedHash": "dcf11bc274ee3551e64705dadcd76af8a4008e1ebfb2c3f455ae5ea75e1a201e"
+    },
+    "ds-ai-rails": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/design-systems/ds-ai-rails/SKILL.md",
+      "computedHash": "efc4c635669748ccfecb3594f74149587d970d330199a67658fa92ef911bcd28"
+    },
+    "ds-ascii": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/design-systems/ds-ascii/SKILL.md",
+      "computedHash": "a7668b56141749981c6cf80ea216e63fc61c4dcf8b144f5d7c7dbcf4bb555ac0"
+    },
+    "ds-inspection": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/design-systems/ds-inspection/SKILL.md",
+      "computedHash": "2bda80b7e125e9008ce86200ea0c54e2e0c7520eafc57160a40ea5ab36ade3fb"
+    },
+    "ds-token-architecture": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/design-systems/ds-token-architecture/SKILL.md",
+      "computedHash": "7eb62f8b66158a2e436ad931cdb7b484741f80a8d09c14af07389700a11f9c49"
+    },
+    "limits-endings": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/mental-health/limits-endings/SKILL.md",
+      "computedHash": "605c14301762f07aea8dcb9723c999838c097b7e5eb5864ec0968a1e0d33bd0d"
+    },
+    "limits-energy": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/mental-health/limits-energy/SKILL.md",
+      "computedHash": "926d70120ea26af6a9633d22592974aef29372937ef905d0213b8c9dccf85b86"
+    },
+    "limits-quiet-hours": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/mental-health/limits-quiet-hours/SKILL.md",
+      "computedHash": "5011f45a527a4efa28c01d155f3930cc246ed764a010d48a4e7d17f5f5573c6b"
+    },
+    "limits-sessions": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/mental-health/limits-sessions/SKILL.md",
+      "computedHash": "ad3af7c2262ac6470f049da86b52aec492c23a7679c63209334e9b66903b5d98"
+    },
+    "limits-setup": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/mental-health/limits-setup/SKILL.md",
+      "computedHash": "fc1ba24c600d3d64b1ab0bbcd30a3be9c84f09651b0716d4aed02c08dbc22e37"
+    },
+    "product-inspection": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/product-design/product-inspection/SKILL.md",
+      "computedHash": "4d352b31753ecc07b1c78f60cc057446803528dc3f22e561cd5c5889d436b8fb"
+    },
+    "product-to-storybook": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/product-design/product-to-storybook/SKILL.md",
+      "computedHash": "654dd9332f6e7217099995c26d951a38b1911d014df2417c9acd8f97d1c6dead"
+    },
+    "setup-brad-frost-skills": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/setup-brad-frost-skills/SKILL.md",
+      "computedHash": "b362aae596bc24234364df9b4666a279efdb8de02721ead064482a622be1cbcd"
+    },
+    "storybook-to-product": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/product-design/storybook-to-product/SKILL.md",
+      "computedHash": "29a167bcea33653443ce5c00b38ad64282534a88387b7198a4973a2654c569c8"
+    },
+    "vibe-killer": {
+      "source": "bradfrost/skills",
+      "commit": "6bf02938dab6018e16bc8c8166c22bac0825c0c4",
+      "sourceType": "github",
+      "skillPath": "skills/product-design/vibe-killer/SKILL.md",
+      "computedHash": "edf18d6dc8277968783abe329c984b3375cb100c78a13d138d4d1459a3f5d71c"
+    }
+  }
+}
