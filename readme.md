@@ -1,14 +1,19 @@
 # Design system evaluations
 
-The purpose of this repo is to provide instructions for evaluating Brad Frost skills against a design system and providing a sample design system.
+The purpose of this repo is to provide instructions for evaluating Brad Frost skills against a design system, and to include sample systems you can run locally.
+
+Two systems are included:
+
+- [Emulsify UI Kit](#install-requirements-for-the-example-design-system-emulsify)
+- [U.S. Web Design System (USWDS)](#install-requirements-for-uswds)
 
 ## Setup
 
 1. Clone this repo
-2. Use Node v20
+2. Use the Node version that system expects (v20 for Emulsify, v24 for USWDS)
 3. Use Figma Console MCP in Figma
-4. Install requirements for the example design system, Emulsify
-5. Copy the Figma file
+4. Install requirements for the design system you want to evaluate
+5. Copy that system's Figma file
 6. Profit
 
 ### Use Node v20
@@ -42,9 +47,28 @@ If you have it installed, you'll see something like `/Users/your-account/.nvm/ve
 
 You'll want to run the system at least once so everything gets built. You do not have to keep it running to evaluate the design system.
 
-### Copy the Figma file
+Emulsify and USWDS both serve Storybook at http://localhost:6006/. Run one at a time.
+
+### Copy the Emulsify Figma file
 
 1. Visit [Emulsify UI Kit • Beta](https://www.figma.com/community/file/1141071510618977331/emulsify-ui-kit-beta)
+2. Click "Open in Figma"
+
+### Install requirements for USWDS
+
+USWDS is vendored from [uswds/uswds](https://github.com/uswds/uswds) `develop` at `029d6d792241b3b4107a630590a27ee951a152b5` (package version 3.14.0). Its `.nvmrc` pins Node 24.
+
+1. `cd uswds` to navigate into the design system
+2. `nvm install 24` if you do not already have Node 24, then `nvm use`
+3. `npm ci` to install dependencies. This also runs the package build, so it takes a few minutes.
+4. `npm start` to launch Storybook
+5. Visit http://localhost:6006/ to see the design system.
+
+You'll want to run the system at least once so everything gets built. You do not have to keep it running to evaluate the design system.
+
+### Copy the USWDS Figma file
+
+1. Visit [USWDS Design Kit • Beta](https://www.figma.com/community/file/1440921849343185329/uswds-design-kit-beta)
 2. Click "Open in Figma"
 
 ## Testing the design system
@@ -55,8 +79,8 @@ To evaluate other design systems, you'll need to have these skills installed glo
 
 ### How to test in Claude
 
-1. Open the copy of the Emulsify Figma file, run the Figma Desktop Bridge, and copy the link to the file.
-2. In Claude, run `Run /ds-inspection. This is the Figma file: [LINK_TO_FIGMA_FILE]`.
+1. Open the copy of the Figma file for the system you are evaluating, run the Figma Desktop Bridge, and copy the link to the file.
+2. In Claude, name the code directory and the Figma file. For Emulsify: `Run /ds-inspection. The design system code is in emulsify-ui-kit. This is the Figma file: [LINK_TO_FIGMA_FILE]`. For USWDS: `Run /ds-inspection. The design system code is in uswds. This is the Figma file: [LINK_TO_FIGMA_FILE]`.
 
 The `ds-inspection` skill will run a full review of the design system—code and Figma. It will generate reports in a new folder named "ds-inspection".
 
